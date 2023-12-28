@@ -35,6 +35,7 @@ Simple lightweight UI for nvidia-smi that can be run as docker containers (back 
 
 - Nvidia Enterprise Video Cards compatible with nvidia-smi
 - nvidia-smi installed
+- nvidia-container-toolkit
 - Up to date nvidia drivers
 - Docker
 - Python 3.12 (if running outside a docker container)
@@ -43,6 +44,7 @@ This is not compatible with ARM with these docker files, if you want to make it 
 
 - [Ubuntu download nvidia drivers](https://ubuntu.com/server/docs/nvidia-drivers-installation) (this should install nvidia-smi)
 - [NVIDIA-Smi documentation](https://developer.nvidia.com/nvidia-system-management-interface)
+- [Nvidia container toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html)
 
 ## Installation
 
