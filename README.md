@@ -8,7 +8,15 @@
 ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝       ╚═╝    ╚═════╝     ╚═════╝    ╚═╝      ╚═╝   ╚══════╝╚══════╝
 ```
 
-# MEGATON v0.0.1
+
+<br />
+<br />
+<p align="center">
+    <h1 align="center">
+        MEGATON v0.0.1
+    </h1>
+</p>
+
 
 
 A simple UI for NVIDIA SMI, we did not make nvidia-smi please check out [NVIDIA-Smi nvidia webpage](https://developer.nvidia.com/nvidia-system-management-interface). Megaton is 100% OPEN-SOURCE and free!
