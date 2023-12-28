@@ -2,7 +2,6 @@
 
 FROM nvidia/cuda:12.3.1-base-ubuntu20.04
 
-
 WORKDIR /app
 
 # RUN rm /etc/apt/sources.list.d/cuda.list
@@ -14,7 +13,6 @@ RUN apt-get update -y && \
     apt install -y python3.10
 RUN apt install python3.10-distutils -y
 RUN curl -sS https://bootstrap.pypa.io/get-pip.py | python3.10
-
 
 ARG UID=10001
 RUN adduser \
@@ -32,9 +30,7 @@ RUN mkdir -p /deployment_assets/pkgs
 COPY ./deployment_assets/pkgs/requirements.txt /deployment_assets/pkgs/
 RUN python3.10 -m pip install -r /deployment_assets/pkgs/requirements.txt
 
-
 COPY --chown=appuser . .
-
 
 # # Expose the port that the application listens on.
 EXPOSE 8000
@@ -43,5 +39,3 @@ HEALTHCHECK --interval=600s --timeout=40s --start-period=5s --retries=4 CMD curl
 
 # # Run the application.
 CMD uvicorn main:app --reload --host 0.0.0.0
-
-# ENTRYPOINT ["tail", "-f", "/dev/null"]
