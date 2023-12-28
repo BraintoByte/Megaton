@@ -49,8 +49,8 @@ This is not compatible with ARM with these docker files, if you want to make it 
 ```
 4. In docker compose change the following to the amount of video cards you have
 ```yaml
-            - driver: nvidia
-              count: your_gpu_count
+    - driver: nvidia
+      count: your_gpu_count
 ```
 5. docker compose up -d
 6. Port your_ip_address:5279
