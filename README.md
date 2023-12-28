@@ -23,7 +23,7 @@ A simple UI for NVIDIA SMI, we did not make nvidia-smi please check out [NVIDIA-
 
 ## Description
 
-Simple lightweight UI for nvidia-smi that can be runned as docker containers (back and front end) or locally. You can also download the docker images from [Docker Hub](docker.io). Megaton allows for temperature and gpu information monitoring in real time. It will detect automatically your video cards and pick up the info from nvidia-smi.
+Simple lightweight UI for nvidia-smi that can be runned as docker containers (back and front end) or locally. Megaton allows for temperature and gpu information monitoring in real time. It will detect automatically your video cards and pick up the info from nvidia-smi.
 
 ![Readme image 1](https://github.com/BraintoByte/Megaton/blob/master/readme_images/readme_image_1.png)
 ![Readme image 2](https://github.com/BraintoByte/Megaton/blob/master/readme_images/readme_image_2.png)
@@ -83,11 +83,30 @@ This is not compatible with ARM with these docker files, if you want to make it 
 - Get gpu memory information
 - Get gpu usage information
 
-# ❤️ WE LOVE FEEDBACK! ❤️
-Please report any bugs or issues you find on [our github page](https://github.com/BraintoByte/Megaton).
+<br />
+<br />
+<p align="center">
+    <h1 align="center">
+        ❤️ WE LOVE FEEDBACK! ❤️
+    </h1>
+    <h3 align="center">
+        Please report any bugs or issues you find on in the issue tab of this repository.
+    </h3>
+</p>
 
-# 🧠🛸 HELP US GROW! 🛸🧠
-Fork the project and help us throw more code in the pot!
+
+<br />
+<br />
+<p align="center">
+    <h1 align="center">
+        🧠🛸 HELP US GROW! 🛸🧠
+    </h1>
+        <h3 align="center">
+        Fork the project and help us throw more code in the pot!
+    </h3>
+</p>
+
+
 
 <br />
 <br />
