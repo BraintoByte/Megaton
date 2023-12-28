@@ -42,6 +42,11 @@ This is not compatible with ARM with these docker files, if you want to make it 
 1. Check system requirements
 2. Clone this repo
 3. Modify megaton_configs/megaton_config.json and add your internal IP_ADRESS
+```json
+{
+    "ip_address": "YOUR_INTERNAL_IP_ADDRESS"
+}
+```
 4. In docker compose change the following to the amount of video cards you have
 ```yaml
             - driver: nvidia
