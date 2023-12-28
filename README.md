@@ -17,7 +17,9 @@
     </h1>
 </p>
 
-
+<p align="center">
+  <img width="460" height="300" src="https://github.com/BraintoByte/Megaton/assets/24713877/e40f6f35-ed2b-4af1-98fb-d609483be38f">
+</p>
 
 A simple UI for NVIDIA SMI, we did not make nvidia-smi please check out [NVIDIA-Smi nvidia webpage](https://developer.nvidia.com/nvidia-system-management-interface). Megaton is 100% OPEN-SOURCE and free!
 
