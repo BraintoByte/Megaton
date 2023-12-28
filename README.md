@@ -111,6 +111,14 @@ This is not compatible with ARM with these docker files, if you want to make it 
 </p>
 
 
+<br />
+<br />
+<h1 align="center">
+    🚀🌌🛰️👾 CONTRIBUTING GUIDELINES 👾🛰️🌌🚀
+</h1>
+<p align="center">
+    <a href="https://github.com/BraintoByte/Megaton/blob/master/.github/CONTRIBUTING.md">To contribute, help us grow, or give feedback here are the contributing guidelines!</a>
+</p>
 
 <br />
 <br />
