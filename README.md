@@ -23,13 +23,13 @@ A simple UI for NVIDIA SMI, we did not make nvidia-smi please check out [NVIDIA-
 
 ## Description
 
-Simple lightweight UI for nvidia-smi that can be runned as docker containers (back and front end) or locally. Megaton allows for temperature and gpu information monitoring in real time. It will detect automatically your video cards and pick up the info from nvidia-smi.
+Simple lightweight UI for nvidia-smi that can be run as docker containers (back and front end) or locally. Megaton allows for temperature and GPU information monitoring in real time. It will detect automatically your video cards and pick up the info from nvidia-smi.
 
 ![Readme image 1](https://github.com/BraintoByte/Megaton/blob/master/readme_images/readme_image_1.png)
 ![Readme image 2](https://github.com/BraintoByte/Megaton/blob/master/readme_images/readme_image_2.png)
 
 
-## System Requirements & Dependecies
+## System Requirements & Dependencies
 
 - Nvidia Enterprise Video Cards compatible with nvidia-smi
 - nvidia-smi installed
@@ -49,7 +49,7 @@ This is not compatible with ARM with these docker files, if you want to make it 
 
 1. Check system requirements
 2. Clone this repo
-3. Modify megaton_configs/megaton_config.json and add your internal IP_ADRESS
+3. Modify megaton_configs/megaton_config.json and add your internal IP_ADDRESS
 ```json
 {
     "ip_address": "YOUR_INTERNAL_IP_ADDRESS"
@@ -60,14 +60,14 @@ This is not compatible with ARM with these docker files, if you want to make it 
     - driver: nvidia
       count: your_gpu_count
 ```
-5. docker compose up -d
-6. Port your_ip_address:5279
-7. (Optional) Change docker ports in the docker-compose.yml file
-8. (Optional) Check out the swagger UI for additional API's at: your_ip_address:5278/documentation
-9. (Optional) Check out the swagger logs at: your_ip_address:5278/logs
+5. ```docker compose up -d```
+6. In your webbrowser ```your_ip_address:5279``` for the ui
+7. (Optional) Change docker ports in the docker-compose.yaml file
+8. (Optional) Check out the swagger UI for additional API's at: ```your_ip_address:5278/documentation```
+9. (Optional) Check out the swagger logs at: ```your_ip_address:5278/logs```
 10.(Optional) Check out the about page in Megaton or [our webpage at braintobytes](https://www.braintobytes.com)
 
-## Available API's
+## Available APIs
 
 - Get cards information (all)
 - Get temperature information
