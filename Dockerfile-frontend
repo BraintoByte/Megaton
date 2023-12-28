@@ -1,0 +1,16 @@
+# syntax=docker/dockerfile:1
+FROM node
+
+WORKDIR /app
+
+COPY package.json .
+RUN npm i
+
+COPY . .
+
+
+HEALTHCHECK --interval=600s --timeout=40s --start-period=5s --retries=4 CMD curl --fail http://127.0.0.1:5173 || exit 1
+
+EXPOSE 5173
+
+CMD ["npm", "run", "dev", "--", "--host"]
