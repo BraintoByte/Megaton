@@ -70,10 +70,10 @@ This is not compatible with ARM with these docker files, if you want to make it 
 - Get gpu memory information
 - Get gpu usage information
 
-#❤️ WE LOVE FEEDBACK! ❤️
+# ❤️ WE LOVE FEEDBACK! ❤️
 Please report any bugs or issues you find on [our github page](https://github.com/BraintoByte/Megaton).
 
-#🧠🛸 HELP US GROW! 🛸🧠
+# 🧠🛸 HELP US GROW! 🛸🧠
 Fork the project and help us throw more code in the pot!
 
 <br />
